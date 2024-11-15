@@ -95,7 +95,6 @@ fun MainScreen( ) {
 
 @Composable
 fun portfolio() {
-    // Content for the Search Screen
     PortfolioScreen()
 }
 
@@ -107,7 +106,6 @@ fun Indices(context: Context) {
 fun CurrentTimeDisplay() {
     val currentTime = remember { mutableStateOf(getCurrentTime()) }
 
-    // Update the time every second
     LaunchedEffect(Unit) {
         while (true) {
             currentTime.value = getCurrentTime()

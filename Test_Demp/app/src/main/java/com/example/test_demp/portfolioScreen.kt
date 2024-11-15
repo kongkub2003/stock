@@ -46,7 +46,6 @@ import com.example.test_demp.Utils.PortfolioData
 import com.example.test_demp.Utils.loadPortfolioFromJson
 
 
-@OptIn(ExperimentalMaterial3Api::class)
 
 @Composable
 fun PortfolioScreen() {
